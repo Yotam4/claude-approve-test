@@ -34,7 +34,7 @@ jobs:
         id: claude
         uses: anthropics/claude-code-action@4411a9e9b0283becf4b924f7bce360fd7756c78c
         with:
-          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY2 }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           show_full_output: true
 
